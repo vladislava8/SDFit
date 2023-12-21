@@ -24,6 +24,7 @@ class ViewController3: UIViewController {
     
     
     
+    
     @IBAction func Subscribe(_ sender: Any) {
         
         buyMonthlySubscription();
@@ -92,13 +93,11 @@ class ViewController3: UIViewController {
             }
         }
         
-        
-        @IBAction func restorePressed(_ sender: UIBarButtonItem) {
-            SKPaymentQueue.default().restoreCompletedTransactions()
-        }
-        
 
-       
+    @IBAction func Restore(_ sender: Any) {
+        SKPaymentQueue.default().restoreCompletedTransactions()
+    }
+    
    
 
 }

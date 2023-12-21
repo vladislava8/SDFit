@@ -213,6 +213,16 @@
                                     <action selector="Subscribe:" destination="d8H-Fo-9ZE" eventType="touchUpInside" id="SqC-Xn-Ifw"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f34-Wp-fEK">
+                                <rect key="frame" x="168" y="783" width="95" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Reinstate"/>
+                                <connections>
+                                    <action selector="Restore:" destination="d8H-Fo-9ZE" eventType="touchUpInside" id="rMl-4n-7rK"/>
+                                    <action selector="restorePressed:" destination="d8H-Fo-9ZE" eventType="touchUpInside" id="Por-AQ-PnU"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start today" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZf-ZO-uSO">
                                 <rect key="frame" x="85" y="193" width="261" height="93"/>
                                 <constraints>
@@ -841,8 +851,8 @@ Sensei Steve Fuentes , Be The Baddest!</string>
                                                 <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="eduardo-roda-lopes-mNefYU7uRbk-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="gL5-BA-3jM">
-                                                <rect key="frame" x="24" y="338" width="342" height="178"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="iStock-1211161650" translatesAutoresizingMaskIntoConstraints="NO" id="YHf-5H-Ubl">
+                                                <rect key="frame" x="-20" y="318" width="438" height="211"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
@@ -900,9 +910,9 @@ Sensei Steve Fuentes , Be The Baddest!</string>
         <image name="Screen Shot 2023-12-07 at 11.47.25 PM" width="360" height="203"/>
         <image name="Screen Shot 2023-12-11 at 6.21.50 PM" width="360" height="207"/>
         <image name="Screen Shot 2023-12-11 at 6.26.04 PM" width="360" height="204"/>
-        <image name="eduardo-roda-lopes-mNefYU7uRbk-unsplash" width="180" height="117"/>
         <image name="figure.kickboxing" catalog="system" width="118" height="128"/>
         <image name="frying.pan" catalog="system" width="128" height="81"/>
+        <image name="iStock-1211161650" width="750" height="501"/>
         <image name="mark-deyoung-mjcJ0FFgdWI-unsplash" width="180" height="120"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
