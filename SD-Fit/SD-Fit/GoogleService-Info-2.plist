@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCEIdR2UJ44yIvQwiwPguqVV0-CTLYgQx8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>404033380079</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.vsicicorez.SD-Fit</string>
+	<key>PROJECT_ID</key>
+	<string>sdfit-4b75a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sdfit-4b75a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:404033380079:ios:509bd7fbe32b5eeee4851a</string>
+</dict>
+</plist>
